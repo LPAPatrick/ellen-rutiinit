@@ -412,7 +412,7 @@
         </div>
         <div class="ankle-box">
           <div class="ankle-label">Tavoite</div>
-          <div class="ankle-value">10.0</div>
+          <div class="ankle-value">15.0</div>
         </div>
       </div>
 
@@ -682,7 +682,7 @@
 
       const padding = 36;
       const minY = 5;
-      const maxY = 12;
+      const maxY = 16;
       const points = [...list];
 
       ctx.strokeStyle = "#581c87";
@@ -700,7 +700,7 @@
         ctx.fillText(y + " cm", 6, py + 4);
       }
 
-      const targetY = mapY(10, minY, maxY, canvas.height, padding);
+      const targetY = mapY(15, minY, maxY, canvas.height, padding);
       ctx.strokeStyle = "#c084fc";
       ctx.lineWidth = 2;
       ctx.setLineDash([8, 6]);
